@@ -1,0 +1,272 @@
+html,
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    height: auto;
+    position: relative;
+    width: 1360px;
+    margin: 0% auto;
+}
+
+.mainpage {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background: linear-gradient(135.25deg, #ACCEE7 0%, #C5F3FC 62.14%);
+}
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 24px;
+    margin-bottom: 64px;
+    margin-left: 96px;
+    display: flex;
+}
+.logo-text{
+    margin-left: 16px;}
+
+.banderogus-conteiner{
+    background: linear-gradient(129.57deg, #ADD0E8 0%, #C5F4FD 34.15%);
+    padding-top: 28px;
+    padding-left: 55px;
+    padding-bottom: 56px;
+    padding-right: 60px;
+    align-self: center;
+}
+
+.banderogus-greeting{
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.bandergus-h2{
+    color: #FF6B0A;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.banderogus-title{
+    color: #040317; 
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 24px;
+    margin-bottom: 66px;
+}  
+.banderogus-paragraph{
+    color: #282734;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+.banderogus-launch{
+    padding: 18px 28px 18px 32px;
+    background-color: #FF6B0A;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    cursor: pointer;
+}
+.main-page-row{
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+}
+.bandergus-image{
+    align-self: flex-end;
+}
+.gus-facts{
+    background: linear-gradient(213deg, #C5F2FB 27.92%, #ACCEE7 100.64%);
+    padding: 96px 26px 96px 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gus-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #0C0632;
+    margin-top: 52px;
+}
+.gus-descr{
+    text-align: center;
+    margin-top: 72px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #0C0632;
+    width: 875px;
+}
+.gus-facts-conteiner{
+    width: 1216px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.gus-facts-item{
+    
+    width: 25%;
+}
+ .gus-fact-img{
+    margin-top:56px;
+ }
+ .gus-facts-title{
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    width: 284.03px;
+    height: 87px;
+    color: #000000;
+ }
+ .gus-fact-descr{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+    color: #000000
+ }
+ .tezub{
+    Width:62px;
+    Height:91.76px;
+ }
+    
+ .victory-footer{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(129.57deg, #ADD0E8 0%, #C5F4FD 34.15%);
+ }
+.victory-bgd{
+    padding-top: 22px;
+    padding-left: 16px;
+    padding-right: 12px;
+    padding-bottom: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+   
+}
+.ukr-logo{
+    margin-bottom: 40px;
+    Width: 46px;
+    Height: 79.89px;
+}
+.victory-title{
+    margin-bottom: 58px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+}
+.victory-descr{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+.modal-bgd{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(27 29 31 / 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3 ease-in-out;
+
+}
+.modal-form{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.modal-form-conteiner{
+    position: relative;
+    background: #C5F3FC;
+    border-radius: 29px;
+    padding-left: 67px;
+    padding-top: 64px;
+    padding-right: 66px;
+    padding-bottom: 95px;
+}
+.modal-form-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #0C0632;
+    margin-bottom: 36px;
+}
+.modal-form-descr{
+    color: #0C0632;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 36px;
+}
+.modal-form-filed{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.modal-field-name{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0C0632;
+    margin-bottom: 8px;
+}
+.modal-field-input{
+    background: rgba(255, 254, 253, 0.6);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    height: 48px;
+    color: #0C0632;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 4px 8px;
+}
+.modal-form-button{
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    background: #FD7411;
+    border: 1px solid #000000;
+    width: 175px;
+    height: 44px;
+    cursor: pointer;
+}
+.close-btn{
+    position: absolute;    
+    right: 24px;
+    top: 24px;
+    font-size: 14px;
+    color: #040212;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+.modal-descr{
+    margin-bottom: 0;
+}
+.modal-active{
+    opacity: 1;
+    pointer-events: all;
+}
